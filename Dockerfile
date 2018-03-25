@@ -174,7 +174,7 @@ CMD export LD_LIBRARY_PATH=/libmesos-bundle/lib:/libmesos-bundle/lib/mesos:$LD_L
      -Dhudson.udp=-1                                 \
      -Djava.awt.headless=true                        \
      -Dhudson.DNSMultiCast.disabled=true             \
-     -Djenkins.install.runSetupWizard=false          \
+     -Djenkins.install.runSetupWizard=true           \
      -jar ${JENKINS_FOLDER}/jenkins.war              \
      ${JENKINS_OPTS}                                 \
      --httpPort=${PORT1}                             \
